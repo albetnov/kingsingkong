@@ -34,6 +34,7 @@
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link href="css/styles.css" rel="stylesheet" />
 
     <!-- Favicon  -->
@@ -70,30 +71,30 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link page-scroll hvr-underline-from-left" href="#header">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#features">VARIAN</a>
+                        <a class="nav-link page-scroll hvr-underline-from-left" href="#features">VARIAN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#details">DETAIL</a>
+                        <a class="nav-link page-scroll hvr-underline-from-left" href="#details">DETAIL</a>
                     </li>
 
                     <!-- Dropdown Menu -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#video" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">BLOG & LAIN-LAIN</a>
+                        <a class="nav-link dropdown-toggle page-scroll hvr-underline-from-left" href="#video" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">BLOG & LAIN-LAIN</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
+                            <a class="dropdown-item hvr-underline-from-left" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
                             <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">ATURAN PEMBELIAN</span></a>
+                            <a class="dropdown-item hvr-underline-from-left" href="terms-conditions.html"><span class="item-text">ATURAN PEMBELIAN</span></a>
                             <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">INFORMSI KONSUMSI</span></a>
+                            <a class="dropdown-item hvr-underline-from-left" href="privacy-policy.html"><span class="item-text">INFORMSI KONSUMSI</span></a>
                         </div>
                     </li>
                     <!-- end of dropdown menu -->
 
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#pricing">HARGA</a>
+                        <a class="nav-link page-scroll hvr-underline-from-left" href="#pricing">HARGA</a>
                     </li>
                 </ul>
             </div>
@@ -115,7 +116,7 @@
                                 Selamat datang di KingSingkong! Mari lihat daftar varian yang
                                 kami miliki!
                             </p>
-                            <a class="btn-solid-lg page-scroll animate__animated animate__pulse animate__infinite" href="#features">DISINI</a>
+                            <a class="btn-solid-lg hvr-radial-out page-scroll animate__animated animate__pulse animate__infinite" href="#features">DISINI</a>
                         </div>
                         <!-- end of text-container -->
                     </div>

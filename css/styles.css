@@ -151,7 +151,6 @@ a.white {
 .btn-solid-reg {
   display: inline-block;
   padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-  border: 0.125rem solid #1d1d1b;
   border-radius: 2rem;
   background-color: #1d1d1b;
   color: #fff;
@@ -162,14 +161,13 @@ a.white {
 
 .btn-solid-reg:hover {
   background-color: transparent;
-  color: #1d1d1b;
+  color: #bebebc;
   text-decoration: none;
 }
 
 .btn-solid-lg {
   display: inline-block;
   padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-  border: 0.125rem solid #1d1d1b;
   border-radius: 2rem;
   background-color: #1d1d1b;
   color: #fff;
@@ -187,7 +185,6 @@ a.white {
 .btn-outline-reg {
   display: inline-block;
   padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-  border: 0.125rem solid #c59119;
   border-radius: 2rem;
   background-color: transparent;
   color: #c59119;
@@ -842,7 +839,6 @@ input[type="checkbox"] {
   margin-right: 0.5rem;
   margin-bottom: 1.125rem;
   margin-left: 0.5rem;
-  border-color: #1d1d1b;
   background-color: #1d1d1b;
   color: #fafafa;
 }

@@ -199,7 +199,7 @@ include __DIR__ . '/layouts/header.php';
                       </div>
                     </li>
                   </ul>
-                  <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
+                  <a class="btn-solid-reg hvr-radial-out popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
                 </div>
                 <!-- end of text-container -->
               </div>
@@ -250,7 +250,7 @@ include __DIR__ . '/layouts/header.php';
                       </div>
                     </li>
                   </ul>
-                  <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>
+                  <a class="btn-solid-reg hvr-radial-out popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>
                 </div>
                 <!-- end of text-container -->
               </div>
@@ -302,7 +302,7 @@ include __DIR__ . '/layouts/header.php';
                       </div>
                     </li>
                   </ul>
-                  <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-3">LIGHTBOX</a>
+                  <a class="btn-solid-reg hvr-radial-out popup-with-move-anim" href="#details-lightbox-3">LIGHTBOX</a>
                 </div>
                 <!-- end of text-container -->
               </div>
@@ -525,7 +525,7 @@ include __DIR__ . '/layouts/header.php';
               <div class="media-body">Whatsapp</div>
             </li>
           </ul>
-          <a class="btn-solid-reg page-scroll animate__animated animate__pulse animate__infinite" href="#pesan">Beli Sekarang!</a>
+          <a class="btn-solid-reg hvr-radial-out page-scroll animate__animated animate__pulse animate__infinite" href="#pesan">Beli Sekarang!</a>
         </div>
         <!-- end of text-container -->
       </div>
@@ -624,7 +624,7 @@ include __DIR__ . '/layouts/header.php';
               </li>
             </ul>
             <div class="button-wrapper">
-              <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
+              <a class="btn-solid-reg hvr-shadow page-scroll" href="sign-up.html">SIGN UP</a>
             </div>
           </div>
         </div>
@@ -663,7 +663,7 @@ include __DIR__ . '/layouts/header.php';
               </li>
             </ul>
             <div class="button-wrapper">
-              <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
+              <a class="btn-solid-reg hvr-shadow page-scroll" href="sign-up.html">SIGN UP</a>
             </div>
           </div>
         </div>
@@ -705,7 +705,7 @@ include __DIR__ . '/layouts/header.php';
               </li>
             </ul>
             <div class="button-wrapper">
-              <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a>
+              <a class="btn-solid-reg hvr-shadow page-scroll" href="sign-up.html">SIGN UP</a>
             </div>
           </div>
         </div>
