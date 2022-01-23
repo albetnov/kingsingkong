@@ -2157,3 +2157,8 @@ a:hover.back-to-top {
     transform: translatey(0px);
   }
 }
+
+.visible {
+  overflow: hidden;
+  animation: zoomIn 1.5s forwards;
+}

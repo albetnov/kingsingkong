@@ -21,8 +21,8 @@ if (isset($_POST['submit'])) {
 include __DIR__ . '/layouts/header.php';
 ?>
 <!-- Customers -->
-<div class="slider-1">
-  <div class="container">
+<div class="slider-1" id="cusSec">
+  <div class="container" id="visibleCus">
     <div class="row">
       <div class="col-lg-12">
         <h4 class="text-center">Sponsor Kami</h4>
@@ -66,8 +66,8 @@ include __DIR__ . '/layouts/header.php';
 <!-- end of customers -->
 
 <!-- Description -->
-<div class="cards-1">
-  <div class="container">
+<div class="cards-1" id="descSec">
+  <div class="container" id="visibleDesc">
     <div class="row">
       <div class="col-lg-12">
         <div class="above-heading">Deskripsi</div>
@@ -130,7 +130,7 @@ include __DIR__ . '/layouts/header.php';
 
 <!-- Features -->
 <div id="features" class="tabs">
-  <div class="container">
+  <div class="container" id="visibleVar">
     <div class="row">
       <div class="col-lg-12">
         <div class="above-heading">Varian</div>
@@ -509,7 +509,7 @@ include __DIR__ . '/layouts/header.php';
 
 <!-- Details -->
 <div id="details" class="basic-1">
-  <div class="container">
+  <div class="container" id="visibleDet">
     <div class="row">
       <div class="col-lg-6">
         <div class="text-container">
@@ -547,7 +547,7 @@ include __DIR__ . '/layouts/header.php';
 
 <!-- Video -->
 <div id="video" class="basic-2">
-  <div class="container">
+  <div class="container" id="visibleVid">
     <div class="row">
       <div class="col-lg-12">
         <!-- Video Preview -->
@@ -581,7 +581,7 @@ include __DIR__ . '/layouts/header.php';
 
 <!-- Pricing -->
 <div id="pricing" class="cards-2">
-  <div class="container">
+  <div class="container" id="visiblePricing">
     <div class="row">
       <div class="col-lg-12">
         <div class="above-heading">Harga</div>
@@ -722,8 +722,8 @@ include __DIR__ . '/layouts/header.php';
 <!-- end of pricing -->
 
 <!-- Testimonials -->
-<div class="slider-2">
-  <div class="container">
+<div class="slider-2" id="testi">
+  <div class="container" id="visibleTesti">
     <div class="row">
       <div class="col-lg-12">
         <h3 class="text-center">Apa Kata Pembeli Kami?</h3>
@@ -815,8 +815,8 @@ include __DIR__ . '/layouts/header.php';
 <!-- end of testimonials -->
 
 <!-- Newsletter -->
-<div class="form">
-  <div class="container">
+<div class="form" id="order">
+  <div class="container" id="visibleOrder">
     <div class="row">
       <div class="col-lg-12">
         <div class="text-container">
@@ -901,4 +901,6 @@ include __DIR__ . '/layouts/header.php';
 </div>
 <!-- end of form -->
 <!-- end of newsletter -->
-<?php include __DIR__ . '/layouts/footer.php' ?>
+<?php
+$customjs = '<script src="js/anim.js"></script>';
+include __DIR__ . '/layouts/footer.php' ?>

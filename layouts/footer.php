@@ -10,8 +10,8 @@
     <title>footer-frame</title>
     <path class="footer-path" d="M0,72.427C143,12.138,255.5,4.577,328.644,7.943c147.721,6.8,183.881,60.242,320.83,53.737,143-6.793,167.826-68.128,293-60.9,109.095,6.3,115.68,54.364,225.251,57.319,113.58,3.064,138.8-47.711,251.189-41.8,104.012,5.474,109.713,50.4,197.369,46.572,89.549-3.91,124.375-52.563,227.622-50.155A338.646,338.646,0,0,1,1920,23.467V79.75H0V72.427Z" transform="translate(0 -0.188)" />
 </svg>
-<div class="footer">
-    <div class="container">
+<div class="footer" id="footer">
+    <div class="container" id="visibleFooter">
         <div class="row">
             <div class="col-md-4">
                 <div class="footer-col first">
@@ -108,6 +108,9 @@
 <script src="js/jquery.magnific-popup.js"></script>
 <!-- Magnific Popup for lightboxes -->
 <script src="js/scripts.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+<?= $customjs ?? '' ?>
 <!-- Custom scripts -->
 </body>
 
