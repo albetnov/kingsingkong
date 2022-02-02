@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
     header('location:index.php#pesan');
     exit();
   } else {
-    header('location:https://facebook.com');
+    header('location:https://www.youtube.com/watch?v=chY9p-XLHHk');
     exit();
   }
 }

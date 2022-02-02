@@ -41,7 +41,7 @@
     <link rel="icon" href="images/favicon.ico" />
 </head>
 
-<body data-spy="scroll" data-target=".fixed-top">
+<body data-spy="scroll" id="body" data-target=".fixed-top">
     <!-- Preloader -->
     <div class="spinner-wrapper">
         <div class="spinner">

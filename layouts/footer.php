@@ -110,6 +110,13 @@
 <script src="js/scripts.js"></script>
 <script src="node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
 <script src="node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+<script>
+    let audio = new Audio("music/music.mp3");
+    let badan = document.getElementById("body");
+    badan.addEventListener("mousemove", function() {
+        audio.play()
+    });
+</script>
 <?= $customjs ?? '' ?>
 <!-- Custom scripts -->
 </body>
